@@ -1,0 +1,17 @@
+<h3 class="title">Data Details</h3>
+
+
+<div mat-dialog-content>
+    <div class="example-header">
+        <span>Quick Filter:</span>
+        <input type="text" id="filter-text-box" placeholder="Filter..." (input)="onFilterTextBoxChanged()" />
+    </div>
+    <div *ngIf="rowData.length>0">
+        <ag-grid-angular [rowData]="rowData" [columnDefs]="colDefs" class="ag-theme-alpine" sortable="true"
+            [animateRows]="true" style="height: 500px;width:1200px" (gridReady)="onGridReady($event)"></ag-grid-angular>
+    </div>
+</div>
+
+<div mat-dialog-actions>
+    <button mat-button mat-dialog-close class="closeButton">Close</button>
+</div>

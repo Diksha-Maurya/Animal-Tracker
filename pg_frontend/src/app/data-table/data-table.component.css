@@ -1,0 +1,10 @@
+.example-header{
+    margin:2px 0px 5px 0px;
+}
+.title{
+    margin-top:4px;
+    text-align: center;
+}
+.closeButton{
+    float:right !important;
+}

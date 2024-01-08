@@ -1,0 +1,19 @@
+.iconSetup{
+    margin-left:20px;
+}
+
+.navbar, a{
+    background-color: #CC0000;
+    color:white;
+}
+
+.userIcon{
+    margin-right:13px;
+    font-size: 19px;
+    cursor:pointer;
+}
+
+.tableButton{
+    color:white !important;
+    margin-right: 25px;
+}

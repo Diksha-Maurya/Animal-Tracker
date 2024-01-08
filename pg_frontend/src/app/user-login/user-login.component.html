@@ -1,0 +1,34 @@
+<div class="col-md-6 offset-md-3 mt-5 backgroundimage">
+    <div class="alert alert-info" style="text-align: center;">
+        Livestock Movement Tracker
+    </div>
+    <div class="card">
+        <h4 class="card-header" style="text-align: center;">Log-In</h4>
+        <div class="card-body">
+            <form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+                <div class="form-group">
+                    <label for="username">Email-ID</label>
+                    <input type="text" formControlName="email" class="form-control"
+                        [ngClass]="{ 'is-invalid': submitted && f['email'].errors }" />
+                    <div *ngIf="submitted && f['email'].errors" class="invalid-feedback">
+                        <div *ngIf="f['email']?.errors?.['required']">Email is required</div>
+                    </div>
+                </div>
+                <div class="form-group mt-4">
+                    <label for="password">Password</label>
+                    <input type="password" formControlName="password" class="form-control"
+                        [ngClass]="{ 'is-invalid': submitted }" />
+                    <div *ngIf="submitted " class="invalid-feedback">
+                        <div *ngIf="f['password']?.errors?.['required']">Password is required</div>
+                    </div>
+                </div>
+                <button [disabled]="loading" class="btn loginButton  mt-4  ">
+                    <span *ngIf="loading" class="spinner-border spinner-border-sm mr-1"></span>
+                    Login
+                </button>
+                <span class="signin"><a routerLink="signUp">New User? Sign Up</a></span>
+                <div *ngIf="error" class="alert alert-danger mt-3 mb-0">{{error}}</div>
+            </form>
+        </div>
+    </div>
+</div>
