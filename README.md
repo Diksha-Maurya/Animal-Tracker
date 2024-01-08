@@ -29,7 +29,13 @@ Link to the implementation video of the Career Flow application:
  
 ## Sign Up Page
 
+![Sign-up](https://github.com/Diksha-Maurya/Programming-Challenge-Lab/assets/27075012/e0c24f29-c1c0-4f17-9f2a-19e81cbaa91f)
+
+
 ## Login Page
+
+![Login](https://github.com/Diksha-Maurya/Programming-Challenge-Lab/assets/27075012/d8d18bb0-e123-4ca4-94fb-23ef000b2e85)
+
 
 ## Dashboard
 
