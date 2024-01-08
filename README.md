@@ -7,6 +7,7 @@
   - [Sign Up Page](#sign-up-page)
   - [Login Page](#login-page)
   - [Dashboard](#dashboard)
+  - [Table](#table)
 - [Project Techstack](#project-techstack)
 - [Technical Overview:](#technical-overview)
 - [Successful Usecases](#successful-usecases)
