@@ -1,0 +1,8 @@
+"id","email","password","username"
+"1","dmaurya","diksha","diksha"
+"2","new_user@example.com","$2a$10$zQMo3n/pXx7rWCrrN8gFUe7KzCKEGJVqGkUl8w7yOqemFOxJcOGRO","new_user"
+"3","dmaurya@ncsu.edu","$2a$10$mQbGQ7yG8RDDrqqBp7dRSeF1Fx21KOMSwjCNVUEb7OxU2VGT19/dG","dmaurya@ncsu.edu"
+"4","jpanch@ncsu.edu","$2a$10$klHqpVyywNYlebis2VWcs.UbWvc2Gxb/ayM.w1Um/sRFzP5u6AiZC","jpanch@ncsu.edu"
+"5","test@ncsu.edu","$2a$10$DCO0IKQVyIj6bR6BLcT9WOe59gCwkhIKhyunNz5w6waiGfDcK7LgO","test@ncsu.edu"
+"6","test1@ncsu.edu","$2a$10$ltVjASnNEP6A23XWORWdle/6rV2o3KQxBrs.Ezj2WJHGThPfxjGNS","test1@ncsu.edu"
+"7","testuser2@ncsu.edu","$2a$10$WGgWpqQCOBq09cPA42uX..4F4wl/mtZNcHY3D6HjLDeo8W8Jrzipe","testuser2@ncsu.edu"

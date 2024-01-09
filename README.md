@@ -1,4 +1,4 @@
-# ProgrammingChallenge - 🔥 Livestock Movement Tracker 🔥
+# Programming Challenge - 🔥 Livestock Movement Tracker 🔥
 
 # Table of Contents  
 - [Why Choose Livestock Movement Tracker!](#-why-choose-livestock-movement-tracker)
@@ -11,7 +11,7 @@
 - [Project Techstack](#project-techstack)
 - [Technical Overview:](#technical-overview)
 - [Successful Usecases](#successful-usecases)
-- [Troubleshooting](#troubleshooting)
+- [Instruction to run](#instruction-to-run)
 
 
 
@@ -78,6 +78,48 @@ With these components working together, the application delivers a secure and fe
 
 6. If user tries to manipulate url, he will be redirected to login page. Also, if user tries to access dashboard url without authetication, it will be again redirected to login-page
 
+# Instruction to run
+ 
+## To Set-Up Frontend(in Angular):
 
-# Troubleshooting
+### Setup Angular:
+
+Install Node.js and npm from official website: ```https://nodejs.org/en``` .
+
+Install AngularCLI: ```npm install -g @angular/cli```.
+
+Installation can be verified by running commands: ```ng --version```.
+
+### Frontend Setup
+Navigate to pg_frontend folder by command: ```cd pg_frontend```.
+
+Install Dependencies: ```npm install```.
+
+Run Angular Development Server: ```ng serve```.
+
+After successful frontend setup, application can be accessed with ```http://localhost:4200```.
+
+## To Setup Backend(in Sprintboot):
+
+### Setup Java
+
+If Java not installed, then it can be setup by official Java SE downloads page: ```https://www.oracle.com/java/technologies/downloads/```.
+
+### Backend Project Setup
+
+Open backend folder ```pg_backend``` in ```IntelliJ IDEA Community Edition 2023.3.2```.
+
+Write postgres correct ```username``` and ```password``` in ```src/main/resources/application.properties4``` and correct database name ```programmingchallenge```.
+
+Right Click on ```SpringBootSecurityJwtApplication``` and then ```Run```.
+
+This will start Spring Boot Application on ```http://localhost:8080```.
+
+
+## Setup Database 
+
+All tables can be accessed in ```Tables``` folder which can be imported one-by-one into Postgres ```programmingchallenge``` databaseby using copy command:
+``` \COPY your_table_name FROM 'C:/data/your_data.csv' WITH CSV HEADER DELIMITER ','; ```
+
+
 
